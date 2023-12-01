@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAKTT nazariy quiz</title>
+    <link rel="stylesheet" href="/IAKKT Quiz/quiz.css">
+    <link rel="icon" type="image/x-icon" href="/IAKKT Quiz/favicon.ico">
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">IAKKT Quiz.</a>
+
+            <nav class="navbar">
+                <a href="#" class="active">Bosh sahifa</a>
+                <a href="#">Haqida</a>
+                <a href="#">Xizmatlar</a>
+                <a href="#">Kontakt</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                <h1>IAKKT Quiz</h1>
+                <div class="quiz-header">
+                    <span>To'g'ri javoblar soni</span>
+                    <span class="header-score">Natija: 0 / 10</span>
+                </div>
+                <h4 class="question-text">What is the capital of Uzbekistan?</h4>
+                <div class="option-list">
+                   <div class="option">
+                        <span>A.Samarkand</span>
+                    </div>
+                    <div class="option">
+                        <span>B.Tashkent</span>
+                    </div>
+                    <div class="option">
+                        <span>C.Namangan</span>
+                    </div>
+                    <div class="option">
+                        <span>D.Bukhara</span>
+                    </div> 
+                </div>
+                <div class="quiz-footer">
+                    <span class="question-total">10 ta savoldan 1</span>
+                    <button class="next-btn">Keyingi</button>
+                </div>
+            </div>
+            <div class="result-box">
+                <h2>Quiz Natijasi!</h2>
+                <div class="percentage-container">
+                    <div class="circular-progress">
+                        <span class="progress-value">0%</span>
+                    </div>
+
+                    <span class="score-text">Your score 0 out of 10</span>
+                </div>
+
+                <div class="buttons">
+                    <button class="tryAgain-btn">Qayta urinish</button>
+                    <button class="goHome-btn">Bosh sahifaga o'tish</button>
+                </div>
+            </div>
+            </section>
+            <section class="home">
+                <div class="home-content">
+                    <h1>Quiz website</h1>
+                    <p>Siz ushbu veb sahifada leksiyalarda o'tilgan mavzular bo'yicha bilimlaringizni tekshirib mustahkamlab olishingiz mumkin. Savollar universitetda 1-kurslar uchun IAKKT maruza darslari bo'yicha tuzilgan.</p>
+                    <button class="start-btn">Quizni boshlash</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <div class="popup-info">
+        <h2>Qo'llanma</h2>
+        <span class="info">1. Sizga 10 ta savol beriladi.</span>
+        <span class="info">2. Har bir savolda 4 tadan variant bor.</span>
+        <span class="info">3. Savollar leksiya mavzulariga asoslangan.</span>
+        <span class="info">4. Quizni tugatgandan so'ng natija foiz ko'rinishida chiqadi.</span>
+        <span class="info">5. Quizni qayta ishlash imkoniyati bor.</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Chiqish</button>
+            <a href="#" class="info-btn continue-btn">Davom etish</a>
+        </div>
+    </div>
+    
+    <script src="/IAKKT Quiz/questions.js"></script>
+    <script src="/IAKKT Quiz/script.js"></script>
+</body>
+</html>
